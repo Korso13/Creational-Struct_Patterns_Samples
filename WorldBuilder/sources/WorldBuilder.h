@@ -14,7 +14,7 @@ public:
         return WorldBuilderInstance;
     }
 
-    SPTR<IAbstractWorldObject> createObject(WorldObjectType);
+    SPTR<IAbstractWorldObject> createObject(const WorldObjectType _objectType, const AbstractObjectSettings& _settings = AbstractObjectSettings());
 
 private:
     
