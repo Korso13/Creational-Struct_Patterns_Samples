@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../AbstractWorldObject.h"
+#include "./Defines.h"
 
 class Floor : public IAbstractWorldObject
 {

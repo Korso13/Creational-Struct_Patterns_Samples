@@ -1,5 +1,12 @@
 #pragma once
-#include "FactorySelector.h"
+
+enum class WorldObjectType
+{
+    NONE,
+    FLOOR,
+    WALL,
+    DOOR
+};
 
 class IAbstractWorldObject
 {

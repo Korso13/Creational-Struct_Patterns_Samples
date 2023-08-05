@@ -1,6 +1,7 @@
 #pragma once
+
 #include "AbstractWorldObject.h"
-#include <memory>
+#include "PCH.h"
 
 struct DefaultAbstractObjectSettings
 {
@@ -12,6 +13,8 @@ struct DefaultAbstractObjectSettings
 class IAbstractFactory
 {
 public:
-    virtual std::shared_ptr<IAbstractWorldObject> createObject() = 0;
+    IAbstractFactory();
+    virtual ~IAbstractFactory();
+    virtual SPTR<IAbstractWorldObject> createObject() = 0;
     virtual void setDefaultAbstractObjectParams(const DefaultAbstractObjectSettings _settings) = 0;
 };
