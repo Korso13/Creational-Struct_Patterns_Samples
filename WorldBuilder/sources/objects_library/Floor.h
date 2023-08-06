@@ -3,8 +3,6 @@
 #include "../AbstractWorldObject.h"
 #include "../PCH.h"
 
-class objectMesh;
-
 class Floor : public IAbstractWorldObject
 {
 public:
@@ -12,6 +10,7 @@ public:
     Floor(const AbstractObjectSettings& _settings)
         :IAbstractWorldObject(_settings)
     {
+        m_objectType = WorldObjectType::FLOOR;
     }
 
     bool isEnabled() const override {return m_isEnabled;}
@@ -22,5 +21,4 @@ public:
 
 protected:
     bool m_isEnabled = true;
-    SPTR<objectMesh> m_mesh;
 };

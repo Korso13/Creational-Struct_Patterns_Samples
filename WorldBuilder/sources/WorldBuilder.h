@@ -2,6 +2,8 @@
 
 #include "FactorySelector.h"
 
+struct DoorSettings;
+
 class WorldBuilder
 {
 public:
@@ -23,7 +25,9 @@ private:
         m_factorySelector = std::make_shared<FactorySelector>();
     }
 
-    SPTR<FactorySelector> m_factorySelector;
+    DoorSettings calculateDoorParams();
     
+private:
+    SPTR<FactorySelector> m_factorySelector;
     static WorldBuilder* WorldBuilderInstance;
 };

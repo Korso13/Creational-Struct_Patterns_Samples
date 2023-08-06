@@ -154,18 +154,28 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="sources\factoriesLibrary\DoorFactory.cpp" />
     <ClCompile Include="sources\factoriesLibrary\FloorFactory.cpp" />
+    <ClCompile Include="sources\factoriesLibrary\WallFactory.cpp" />
     <ClCompile Include="sources\FactorySelector.cpp" />
+    <ClCompile Include="sources\LevelBuilder.cpp" />
+    <ClCompile Include="sources\objects_library\Door.cpp" />
     <ClCompile Include="sources\objects_library\Floor.cpp" />
     <ClCompile Include="sources\objects_library\GlassFloor.cpp" />
+    <ClCompile Include="sources\objects_library\Wall.cpp" />
     <ClCompile Include="sources\WorldBuilder.cpp" />
     <ClCompile Include="WorldMaker.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="sources\AbstractFactory.h" />
     <ClInclude Include="sources\AbstractWorldObject.h" />
+    <ClInclude Include="sources\factoriesLibrary\DoorFactory.h" />
     <ClInclude Include="sources\factoriesLibrary\FloorFactory.h" />
+    <ClInclude Include="sources\factoriesLibrary\WallFactory.h" />
+    <ClInclude Include="sources\LevelBuilder.h" />
+    <ClInclude Include="sources\objects_library\Door.h" />
     <ClInclude Include="sources\objects_library\GlassFloor.h" />
+    <ClInclude Include="sources\objects_library\Wall.h" />
     <ClInclude Include="sources\PCH.h" />
     <ClInclude Include="sources\FactorySelector.h" />
     <ClInclude Include="sources\objects_library\Floor.h" />

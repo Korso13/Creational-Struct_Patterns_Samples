@@ -1,4 +1,5 @@
 #pragma once
+#include "PCH.h"
 
 enum class WorldObjectType
 {
@@ -54,7 +55,6 @@ protected:
     bool m_isUpdated = false;
     bool m_isDestructible = false;
     float m_defaultColliderSize = 1.f;
-    
-private:
+    SPTR<objectMesh> m_mesh;
     WorldObjectType m_objectType = WorldObjectType::NONE;
 };
