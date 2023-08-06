@@ -18,7 +18,7 @@ public:
 
     SPTR<IAbstractWorldObject> createObject(const WorldObjectType _objectType, const AbstractObjectSettings& _settings = AbstractObjectSettings());
 
-private:
+protected:
     
     WorldBuilder()
     {
@@ -26,8 +26,8 @@ private:
     }
 
     DoorSettings calculateDoorParams();
-    
+
 private:
-    SPTR<FactorySelector> m_factorySelector;
     static WorldBuilder* WorldBuilderInstance;
+    SPTR<FactorySelector> m_factorySelector;
 };

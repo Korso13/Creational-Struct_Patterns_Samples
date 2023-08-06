@@ -2,6 +2,7 @@
 #include <memory>
 #include <map>
 #include <set>
+#include <vector>
 
 
 class objectMesh;

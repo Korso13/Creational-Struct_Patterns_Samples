@@ -4,6 +4,8 @@
 #include <chrono>
 #include "factoriesLibrary/DoorFactory.h"
 
+WorldBuilder* WorldBuilder::WorldBuilderInstance = nullptr;
+
 SPTR<IAbstractWorldObject> WorldBuilder::createObject(const WorldObjectType _objectType, const AbstractObjectSettings& _settings)
 {
     if(!m_factorySelector)
