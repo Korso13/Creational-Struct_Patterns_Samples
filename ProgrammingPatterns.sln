@@ -12,6 +12,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RoomDecorator", "RoomDecora
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BulletChainOfResponsibility", "BulletChainOfResponsibility\BulletChainOfResponsibility.vcxproj", "{9CF31E6A-6DD5-4CED-80DC-38119882F494}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ClickCommand", "ClickCommand\ClickCommand.vcxproj", "{2955BC45-E5CF-4609-97AB-1522185DEA97}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,5 +40,9 @@ Global
 		{9CF31E6A-6DD5-4CED-80DC-38119882F494}.Debug|Any CPU.Build.0 = Debug|Win32
 		{9CF31E6A-6DD5-4CED-80DC-38119882F494}.Release|Any CPU.ActiveCfg = Release|Win32
 		{9CF31E6A-6DD5-4CED-80DC-38119882F494}.Release|Any CPU.Build.0 = Release|Win32
+		{2955BC45-E5CF-4609-97AB-1522185DEA97}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{2955BC45-E5CF-4609-97AB-1522185DEA97}.Debug|Any CPU.Build.0 = Debug|Win32
+		{2955BC45-E5CF-4609-97AB-1522185DEA97}.Release|Any CPU.ActiveCfg = Release|Win32
+		{2955BC45-E5CF-4609-97AB-1522185DEA97}.Release|Any CPU.Build.0 = Release|Win32
 	EndGlobalSection
 EndGlobal

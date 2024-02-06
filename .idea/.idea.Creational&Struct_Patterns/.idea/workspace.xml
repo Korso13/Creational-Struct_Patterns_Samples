@@ -8,22 +8,7 @@
     <projectFile>WorldBuilder/WorldMaker.vcxproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dcc561b7-c88e-4cb5-8524-134ba699b87d" name="Changes" comment="Project name change">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Creational&amp;Struct_Patterns/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BulletChainOfResponsibility/Actor.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BulletChainOfResponsibility/Actor.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BulletChainOfResponsibility/ActorController.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BulletChainOfResponsibility/ActorController.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BulletChainOfResponsibility/Bullet.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BulletChainOfResponsibility/Bullet.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BulletChainOfResponsibility/BulletChainOfResponsibility.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BulletChainOfResponsibility/BulletChainOfResponsibility.vcxproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BulletChainOfResponsibility/BulletChainOfResponsibility.vcxproj.filters" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BulletChainOfResponsibility/Defines.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BulletChainOfResponsibility/KillDataRequester.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProgrammingPatterns/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProgrammingPatterns/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProgrammingPatterns.sln" beforeDir="false" afterPath="$PROJECT_DIR$/ProgrammingPatterns.sln" afterDir="false" />
-    </list>
+    <list default="true" id="dcc561b7-c88e-4cb5-8524-134ba699b87d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -211,7 +196,7 @@
       <option name="presentableId" value="Default" />
       <updated>1705825345647</updated>
       <workItem from="1705825348357" duration="1806000" />
-      <workItem from="1706944156115" duration="2454000" />
+      <workItem from="1706944156115" duration="3593000" />
     </task>
     <task id="LOCAL-00001" summary="Project name change">
       <created>1706944242639</created>
@@ -220,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706944242639</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added Chain of Responsibility pattern sample.">
+      <created>1706950143820</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706950143820</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,6 +235,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Project name change" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project name change" />
+    <MESSAGE value="Added Chain of Responsibility pattern sample." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Chain of Responsibility pattern sample." />
   </component>
 </project>
